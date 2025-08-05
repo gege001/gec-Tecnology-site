@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Serviços </title>
+    <style>
+   body{
+    margin: 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #959da1;
+   }     
+   header{
+    background-color: #030355;
+    padding: 20px;
+   }
+   .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+   }
+   .logo img{
+    height: 80px;
+
+   }
+   nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+   }
+   nav a:hover{
+    color: #09098b;
+   }
+   main {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+   }
+   h1{
+    text-align: center;
+    font-size: 36px;
+    color: #1e1e2f;
+   }
+   .serviços-blocos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+   }
+   .bloco {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: #2158c0;
+    transition: transform 0.3s;
+    text-align: center;
+    flex: 1 1 250px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   .bloco:hover{
+    transform: translatey(-5px);
+   }
+   .bloco h2{
+    color: #030355;
+    margin: 0;
+    font-size: 18px;
+
+   }
+   .bloco p {
+    color:black;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+   }
+   footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #1e1e2f;
+   }
+   @media( max-widht: 600px){
+    .bloco{
+        padding: 15px;
+    }
+    .bloco h2{
+        font-size: 16px;
+    }
+    .bloco p{
+        font-size: 13px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+   }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <a href="index1.html " class="logo"><img src="imagens/gec tecnoloy.png" alt="GEC Tecnology"> </a>
+            <nav>
+                <a href="index1.html"> Página Inicial</a>
+                <a href="sobre.html">  Sobre Nós</a>
+                <a href="serviços.html"> Serviços</a>
+                <a href="contacto.html"> Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1> Nossos Serviços</h1>
+        <div class="Serviços-blocos">
+             <div class="bloco">
+                 <h2>Desenvolvimento web </h2>
+                 <p> Criamos sites responsivos, rápidos e otimizados para o seu negócio.</p>
+             </div>
+             <div class="bloco">
+                   <h2>Consultoria de TI </h2>
+                 <p> Segurança da informação, infraestrutura e suporte técnico.</p> 
+             </div>
+             <div class="bloco">
+                  <h2> Marketing digital e Design gráfico</h2>
+                 <p>Criaçao de conteúdo publicitário, anúncios, identidade visual, banners, logotipos personalizados, gestão de redes sociais e mais.</p>  
+             </div>
+            
+            <div class="bloco">
+                 <h2> Manutenção de hardware</h2>
+                 <p> Serviço personalizado de manutenção de hardware desde placa-mãe, baterias, cabos de alimentação, transformadores, LCDs, teclados, mouse e muito mais.. </p>
+            </div>
+            
+        </div>
+    </main>
+    <footer> &copy; 2025 Sua Empresa. Todos os direitos reservados.</footer>
+</body>
+</html>
